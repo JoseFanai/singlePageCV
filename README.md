@@ -1,5 +1,5 @@
 # Single-Page CV
-https://roadmap.sh/projects/single-page-cv
+Project url: https://roadmap.sh/projects/single-page-cv
 
 A simple single-page CV/resume website built using HTML. This project focuses on creating a clean, semantic HTML structure while implementing basic SEO, Open Graph metadata, and a favicon.
 
