@@ -5,83 +5,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My CV</title>
+    <meta name="description" content="Personal CV of Joseph, a Frontend Developer">
+    <meta property="og:title" content="Jose Fanai - Frontend Developer">
+    <link rel="icon" href="favicon-32x32.png">
 </head>
 
 <style>
     .container {
+        display: inline-block;
         font-size: larger;
         margin-left: 100px;
     }
-    div ul {
-        display: inline;
-    }
+
     span {
         color: blue;
     }
-    .title {
+
+    h3 {
         color: green;
     }
 </style>
 
 <body>
     <div class="container">
-    <!-- https://roadmap.sh/projects/single-page-cv -->
-    <div class="all">
-        <hr style="margin: 50px 200px 0px 0px;height: 5px;color: black;background-color: black;">
-        <h1>Your Name</h1>
-        <p class="title">Junior Frontend Developer</p>
-        <p>
-            123 Street <br>
-            My city, AZ 132456 <br>
-            (123)456-7890 <br>
-            no_reply@example.com
-        </p>
-    </div>
-    <div class="all">
-        <p class="title">Skills</p>
-        <p>HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive web design, Technical Writing, Presentation
-        </p>
-    </div>
-    <div class="all">
-        <p class="title">Education</p>
-        <p>
-            <span>School Name, Location - Degree</span>
-            <br>Month 20xx to Month 20xx
-            <br>List of exiciting things you did at university
-        </p>
-    </div>
-    <div class="all">
-        <p class="title">Experience</p>
-        <p>
-            <span>
-                Company name, Location - Job Title
-            </span>
-            <br>Month 20xx to Month 20xx
-        </p>
-        <ul>
-            <li>List of achievements</li>
-            <li>List of achievements</li>
-            <li>List of achievements</li>
-        </ul>
-        <p>Skills: List of skills used or gained at this Company</p>
+        <header class="all">
+            <hr style="margin: 50px 200px 0px 0px;height: 5px;color: black;background-color: black;">
+            <h1>Your Name</h1>
+            <p class="title">Junior Frontend Developer</p>
+            <p>
+                123 Street <br>
+                My city, AZ 132456 <br>
+                (123)456-7890 <br>
+                no_reply@example.com
+            </p>
+        </header>
+        <main>
+            <section class="all">
+                <h3>Skills</h3>
+                <p>HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive web design, Technical Writing,
+                    Presentation
+                </p>
+            </section>
+            <section class="all">
+                <h3>Education</h3>
+                <p>
+                    <span>School Name, Location - Degree</span>
+                    <br>Month 20xx to Month 20xx
+                    <br>List of exiciting things you did at university
+                </p>
+            </section>
+            <section class="all">
+                <h3>Experience</h3>
+                <p>
+                    <span>
+                        Company name, Location - Job Title
+                    </span>
+                    <br>Month 20xx to Month 20xx
+                </p>
+                <ul>
+                    <li>List of achievements</li>
+                    <li>List of achievements</li>
+                    <li>List of achievements</li>
+                </ul>
+                <p>Skills: List of skills used or gained at this Company</p>
 
-        <p>
-            <span>
-                Company name, Location - Job Title
-            </span>
-            <br>Month 20xx to Month 20xx
-            <ul>
-                <li>List of achievements</li>
-                <li>List of achievements</li>
-                <li>List of achievements</li>
-            </ul>
-            <p>Skills: List of skills used or gained at this Company</p>
-        </p>
-    </div>
-    <div class="all">
-        <p class="title">Across the Internet</p>
-        <p>add your LinedIn, GitHub profile Links</p>
-    </div>
+                <p>
+                    <span>
+                        Company name, Location - Job Title
+                    </span>
+                    <br>Month 20xx to Month 20xx
+                <ul>
+                    <li>List of achievements</li>
+                    <li>List of achievements</li>
+                    <li>List of achievements</li>
+                </ul>
+                <p>Skills: List of skills used or gained at this Company</p>
+                </p>
+            </section>
+        </main>
+        <footer class="all">
+            <h3>Across the Internet</h3>
+            <p>add your LinedIn, GitHub profile Links</p>
+        </footer>
     </div>
 </body>
 
